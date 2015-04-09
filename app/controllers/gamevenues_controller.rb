@@ -1,0 +1,2 @@
+class GamevenuesController < ApplicationController
+end
