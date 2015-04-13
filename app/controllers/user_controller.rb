@@ -1,7 +1,7 @@
 class UserController < ApplicationController
 
-	def index
-		current_user
+	def new
+		@user = User.new
 	end
 
 end
