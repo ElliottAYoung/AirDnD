@@ -33,7 +33,7 @@ class GameController < ApplicationController
   private
 
   def game_params
-    params.require(:game).permit()
+    params.require(:game).permit(:dungeon_master, :game_name, :game_system, :level_range, :description, :minimum_number_of_players, :maximum_number_of_players, :start_time, :end_time)
   end
 
 end
