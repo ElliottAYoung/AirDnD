@@ -5,6 +5,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string  :password_hash
       t.string  :avatar_url
       t.text    :bio
+      t.string  :name 
       t.string  :preferred_experience
       t.string  :preferred_version
       t.string  :preferred_classes
